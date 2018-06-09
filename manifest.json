@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "AddUnderBarToMOBAMAS",
+    "short_name": "PlusMBMS",
+    "version": "0.0.1",
+
+    
+    "description": "add Under Bar Button to MOBAMAS for Google Chrome",
+
+    "icons": {
+        "16": "img/icon.png"
+    },
+
+    "page_action": {
+        "default_icon": {
+        "16": "img/icon.png"
+        },
+        "default_title": "AddToMOBAMAS",
+        "deault_popup": "popup.html"
+    },
+
+    "content_scripts": [
+    {
+        "matches": ["https://sp.pf.mbga.jp/12008305/*"],
+        "js": ["js/jquery-3.3.1.min.js","js/script.js"]
+    }
+    ]
+}
