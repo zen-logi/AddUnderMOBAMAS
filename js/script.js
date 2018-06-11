@@ -1,7 +1,7 @@
 $("body").html();
 
 $(function(){
-    $("body").append("<img src='mystudio.jpg' class='mystudio' alt'mystudio'");
+    $("body").append("<img src='mystudio.jpg' class='mystudio' alt='mystudio'>");
     $("img.mystudio").css({
         "position":"fixed",
         "bottom":"10",
@@ -9,5 +9,19 @@ $(function(){
         "left":"0",
         "margin":"auto",
     })
-    $("body").append("<img src='return.jpg'")
+    $("body").append("<img src='img/return.jpg' class='return' alt='return'>")
+    $("img.return").css({
+        "position":"fixed",
+        "bottom":"10",
+        "left":"5",
+        "margin":"auto"
+    })
+    $("body").append("<img src='img/next.jpg' class='next' alt='next'>")
+    $("img.next").css([
+        "position": "fixed",
+        "botton": "10",
+        "left": "15",
+        "margin": "auto"
+    ])
+    $("body").append("<img src='img/menu.jpg' class='manu' alt='menu'>")
 })
