@@ -30,4 +30,11 @@ $(function(){
         "right": "5",
         "margin": "auto"
     })
+    $("body").append("<img src='img/reload.jpg' class='reload' alt='reload'>")
+    $("img.reload").css({
+        "position": "fixed",
+        "botton": "10",
+        "right": "10",
+        "margin":"auto"
+    })
 })
