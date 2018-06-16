@@ -24,4 +24,10 @@ $(function(){
         "margin": "auto"
     ])
     $("body").append("<img src='img/menu.jpg' class='manu' alt='menu'>")
+    $("img.menu").css({
+        "position": "fized",
+        "bottom": "10",
+        "right": "5",
+        "margin": "auto"
+    })
 })
