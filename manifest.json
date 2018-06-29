@@ -7,11 +7,10 @@
 
   "description": "add Under Bar Button to MOBAMAS for Google Chrome",
 
-  "icons": [
+  "icons": 
     {
-      "16":  "img/icon.jpg"
-    }
-  ],
+      "16":  "img/icon.png"
+    }, 
     "page_action": {
         "default_icon": {
         "16": "img/icon.png"
@@ -23,8 +22,8 @@
     "content_scripts": [
     {
       "matches": [ "http://sp.pf.mbga.jp/12008305/*" ],
-      "js": [ "js/jquery-3.3.1.min.js", "js/script.js" ],
-      "css":  ["css/style.css"]
+      "js": [ "js/jquery-3.3.1.min.js", "js/script.js" ]
     }
-    ]
+    ],
+    "content_security_policy": "script-src 'self'; style-src 'self'"
 }
