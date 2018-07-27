@@ -15,27 +15,27 @@ $(function () {
         "position": "fixed",
         "bottom": "10",
         "left": "5",
-        "margin": "auto"
+        "margin": "auto",
     });
     $("body").append("<img src='img/next.jpg' class='next' alt='next'>");
-    $("img.next").css([
+    $("img.next").css({
         "position": "fixed",
         "botton": "10",
         "left": "15",
-        "margin": "auto"
-    ]);
+        "margin": "auto",
+    });
     $("body").append("<img src='img/menu.jpg' class='manu' alt='menu'>");
     $("img.menu").css({
         "position": "fized",
         "bottom": "10",
         "right": "5",
-        "margin": "auto"
+        "margin": "auto",
     });
     $("body").append("<img src='img/reload.jpg' class='reload' alt='reload'>");
     $("img.reload").css({
         "position": "fixed",
         "botton": "10",
         "right": "10",
-        "margin": "auto"
+        "margin": "auto",
     });
 });
